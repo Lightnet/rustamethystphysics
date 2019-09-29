@@ -1,0 +1,14 @@
+[package]
+name = "rustamethystphysics"
+version = "0.5.1"
+description = "amethyst physics test"
+license = "CC0-1.0"
+authors = ["Lightnet <>"]
+readme = "README.md"
+edition = "2018"
+
+[dependencies]
+amethyst = { version = "0.13", features = ["shader-compiler","vulkan"] }
+rand = "0.7.2"
+amethyst_physics = "0.0.1"
+amethyst_nphysics = "0.0.1"
